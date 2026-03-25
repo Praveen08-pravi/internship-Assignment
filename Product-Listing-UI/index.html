@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Mini E-Commerce</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<h1>Mini E-Commerce Store</h1>
+
+<div class="controls">
+<input type="text" id="search" placeholder="Search product...">
+
+<select id="filter">
+<option value="all">All Categories</option>
+<option value="electronics">Electronics</option>
+<option value="clothing">Clothing</option>
+<option value="shoes">Shoes</option>
+</select>
+
+<div class="cart">
+🛒 Cart: <span id="cartCount">0</span>
+</div>
+</div>
+</header>
+
+<div class="products" id="productContainer"></div>
+<div class="cart">
+🛒 Cart: <span id="cartCount">0</span>
+<button onclick="clearCart()">Clear Cart</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

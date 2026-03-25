@@ -1,0 +1,46 @@
+body{
+margin:0;
+font-family: Arial;
+background:#f2f2f2;
+min-height:100vh;
+justify-content:center;
+align-items:center;
+}
+
+.container{
+background:rgb(194, 187, 187);
+padding:30px;
+width:300px;
+box-shadow:0 0 10px gray;
+text-align:center;
+}
+
+input{
+width:100%;
+padding:10px;
+margin:10px 0;
+color: bisque;
+}
+
+button{
+width:100%;
+padding:10px;
+background:green;
+color:white;
+border:none;
+cursor:pointer;
+}
+
+button:hover{
+background:darkgreen;
+}
+
+.error{
+color:rgb(46, 43, 43);
+font-size:12px;
+}
+
+.strength{
+font-size:12px;
+color:rgb(5, 5, 17);
+}
